@@ -3,7 +3,10 @@
   "version": "0.2.0",
   "description": "An animation library",
   "main": "index.js",
-  "repository": "https://github.com/osama-mhmd/swipit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osama-mhmd/swipit.git"
+  },
   "author": "Osama Mohammed",
   "license": "MIT",
   "keywords": [

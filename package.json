@@ -10,5 +10,8 @@
     "animation",
     "react",
     "typescript"
-  ]
+  ],
+  "scripts": {
+    "test": "echo Done"
+  }
 }

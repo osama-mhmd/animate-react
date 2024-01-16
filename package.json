@@ -1,5 +1,5 @@
 {
-  "name": "animate-react",
+  "name": "@animate/react",
   "version": "0.0.1",
   "description": "An animation library",
   "main": "index.js",

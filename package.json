@@ -1,0 +1,14 @@
+{
+  "name": "animate-react",
+  "version": "0.0.1",
+  "description": "An animation library",
+  "main": "index.js",
+  "repository": "https://github.com/osama-mhmd/animate-react",
+  "author": "Osama Mohammed",
+  "license": "MIT",
+  "keywords": [
+    "animation",
+    "react",
+    "typescript"
+  ]
+}

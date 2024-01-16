@@ -2,10 +2,21 @@
   "name": "swipit",
   "version": "0.2.0",
   "description": "An animation library",
-  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/swipit.umd.js",
+  "module": "dist/swippit.mjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/osama-mhmd/swipit.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/swipit.mjs",
+      "require": "./dist/swipit.umd.js"
+    }
   },
   "author": "Osama Mohammed",
   "license": "MIT",
@@ -15,6 +26,12 @@
     "typescript"
   ],
   "scripts": {
-    "test": "echo Done"
+    "test": "vitest",
+    "build": "vite"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "vite": "^5.0.11",
+    "vitest": "^1.2.0"
   }
 }

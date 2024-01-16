@@ -1,1 +1,3 @@
-<div style="font-size: 30px; text-align: center;">react-aniamte</div>
+<p align="center" style="font-size: 30px;">
+  swipit
+</p>
